@@ -1,0 +1,6 @@
+cluddy_application_hello:
+    pattern:  /hello/{name}
+    defaults: { _controller: CluddyApplicationBundle:Default:index }
+cluddy_application_homepage:
+    pattern:  /
+    defaults: { _controller: CluddyApplicationBundle:Default:welcome }
